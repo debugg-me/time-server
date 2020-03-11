@@ -1,0 +1,12 @@
+{
+  "name": "time-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node time-server-test.js"
+  },
+  "repository": "git@github.com:debugg-me/time-server.git",
+  "author": "Faraaz <faraaz98@live.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
