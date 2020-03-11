@@ -39,7 +39,7 @@ const server = net.createServer(function (socket) {
 server.listen(8000)
 ```
 
-Remember to use the port number supplied to you as the first command-line argument.
+Remember to use 31337 as the port number for the server.
 
 The `socket` object contains a lot of meta-data regarding the connection, but it is also a Node duplex Stream, in that it can be both read from, and written to. For this exercise we only need to write data and then close the socket.
 
